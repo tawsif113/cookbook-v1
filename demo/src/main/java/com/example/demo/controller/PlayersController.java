@@ -1,6 +1,9 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 
+import com.example.demo.model.PlayerRequestBody;
+import com.example.demo.model.PlayerResponseBody;
+import com.example.demo.service.PlayerService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

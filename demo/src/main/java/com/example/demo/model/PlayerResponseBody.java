@@ -1,6 +1,5 @@
-package com.example.demo;
+package com.example.demo.model;
 
-import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Data

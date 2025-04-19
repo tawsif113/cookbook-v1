@@ -1,14 +1,16 @@
-package com.example.demo;
+package com.example.demo.model;
+
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Data
-public class PlayerRequestBody {
+public class TeamResponseBody {
+
+
+    private Long id;
 
     @NotNull
     private String name;
 
-    @NotNull
-    private Long teamId;
 }

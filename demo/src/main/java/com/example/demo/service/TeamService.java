@@ -1,8 +1,11 @@
-package com.example.demo;
+package com.example.demo.service;
 
 
+import com.example.demo.model.TeamRequestBody;
+import com.example.demo.model.TeamResponseBody;
+import com.example.demo.model.Teams;
+import com.example.demo.repository.TeamRepository;
 import jakarta.validation.Valid;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

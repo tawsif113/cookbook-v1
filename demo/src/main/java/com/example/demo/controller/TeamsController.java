@@ -1,6 +1,9 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 
+import com.example.demo.model.TeamRequestBody;
+import com.example.demo.model.TeamResponseBody;
+import com.example.demo.service.TeamService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
